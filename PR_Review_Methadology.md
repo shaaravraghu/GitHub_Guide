@@ -23,6 +23,16 @@ git checkout pr-<no.>
 git fetch origin pull/<no.>/head:pr-<no.>
 ```
 
+### NOTE (during PR update)
+You cannot update branch pr-<no.>
+while actively standing inside pr-<no.>
+Therefore, follow the below steps
+```
+git checkout main
+git fetch origin pull/<no.>/head:pr-<no.>
+git reset --hard FETCH_HEAD
+```
+
 ## Reset PR to latest PR state (only when PR gets updated)
 ```
 git reset --hard FETCH_HEAD
