@@ -13,14 +13,14 @@ cd /Users/shaarav/Documents/<Folder>/.../<Folder>/PR<no.>
 git clone <REPO_URL> .
 ```
 
-## Switches working directory to branch
-```
-git checkout pr-<no.>
-```
-
 ## Fetch PR proposal as branch/ pull latest PR updates
 ```
 git fetch origin pull/<no.>/head:pr-<no.>
+```
+
+## Switches working directory to branch
+```
+git checkout pr-<no.>
 ```
 
 ### NOTE (during PR update)
