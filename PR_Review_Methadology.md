@@ -1,10 +1,10 @@
 ## Create a folder locally
-```bash
+```
 mkdir -p /Users/shaarav/Documents/<Folder>/.../<Folder>/PR<no.>
 ```
 
 ## Move to that folder
-```bash
+```
 cd /Users/shaarav/Documents/<Folder>/.../<Folder>/PR<no.>
 ```
 
@@ -13,19 +13,34 @@ cd /Users/shaarav/Documents/<Folder>/.../<Folder>/PR<no.>
 git clone <REPO_URL> .
 ```
 
-## Fetch PR proposal as branch
-```
-git fetch origin pull/<no.>/head:pr-<no.>
-```
-
-## Quick way to check additions/ deletions/ changes
+## Switches working directory to branch
 ```
 git checkout pr-<no.>
 ```
 
-## 
+## Fetch PR proposal as branch/ pull latest PR updates
+```
+git fetch origin pull/<no.>/head:pr-<no.>
+```
+
+## Reset PR to latest PR state (only when PR gets updated)
+```
+git reset --hard FETCH_HEAD
+```
+
+## See new commits or the files that changed
+```
+git log --oneline main..pr-<no.>
+```
+
+## Quick way to check additions/ deletions/ changes (compare)
 ```
 git diff main..pr-<no.>
+```
+
+## Creates a file to store the comparison
+```
+git diff main..pr-<no.>  >  pr<no.>.diff
 ```
 
 ## Open Antigravity IDE
