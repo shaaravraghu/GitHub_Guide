@@ -30,7 +30,13 @@ Therefore, follow the below steps
 ```
 git checkout main
 git fetch origin pull/<no.>/head:pr-<no.>
+git checkout pr-<no.>
 git reset --hard FETCH_HEAD
+```
+Ensure your main doesn't get the PR branch update and if it happens by mistake, then:
+```
+git checkout main
+git reset --hard origin/main
 ```
 
 ## Reset PR to latest PR state (only when PR gets updated)
