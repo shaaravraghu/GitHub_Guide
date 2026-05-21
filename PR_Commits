@@ -1,0 +1,6 @@
+| Method         | Keeps All Commits?   | Creates Merge Commit? | Clean History?  |
+| -------------- | -------------------- | --------------------- | --------------- |
+| Merge          | ✅ Yes                | ✅ Yes                 | ❌ Can get messy |
+| Rebase & Merge | ✅ Yes                | ❌ No                  | ✅ Very clean    |
+| Squash & Merge | ❌ No (1 commit only) | ❌ No                  | ✅ Cleanest      |
+
