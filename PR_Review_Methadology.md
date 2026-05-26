@@ -97,6 +97,7 @@ Check for:
 
 Decide whether the PR should be approved. (I don't want to keep the contributor waiting for very long, you may ignore silly issues)
 (This is the PR message provided:)
+(This is the Issue message provided:)
 (Avoid reviewing things other than what this PR is meant for.)
 ```
 
