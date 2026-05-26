@@ -79,10 +79,12 @@ open -a "Cursor" .
 open -a "Codex" .
 ```
 
-## AI Prompt
+## AI Prompt Template
 ```
-Review this PR completely.
+Review this PR completely. Analyze pr<no.>.<v.>.diff file.
+
 Check for:
+- all functional changes
 - security issues
 - logic bugs
 - race conditions
@@ -91,13 +93,11 @@ Check for:
 - code smells
 - missing validations
 - performance issues
-(OR)
-Analyze pr14.diff and summarize:
-- all functional changes
-- potential bugs
-- security concerns
-- architectural impacts
-- whether the PR should be approved
+- architecture impacts
+
+Decide whether the PR should be approved. (I don't want to keep the contributor waiting for very long, you may ignore silly issues)
+(This is the PR message provided:)
+(Avoid reviewing things other than what this PR is meant for.)
 ```
 
 ## Delete branch (if needed)
