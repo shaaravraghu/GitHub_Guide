@@ -24,9 +24,9 @@ git push origin <branch-name>
 
 ---
 
-````md
 ## Create a folder locally
-```bash
+
+````md
 mkdir -p /Users/shaarav/Documents/<Folder>/.../<Folder>/<Project>
 ````
 
