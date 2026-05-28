@@ -1,6 +1,30 @@
-````md
 # PR Creation Methodology
 
+---
+
+# Quick Workflow Summary
+
+```bash
+mkdir <folder_name>
+cd ../<folder_name>
+
+git clone <fork-url>
+
+git remote add upstream <original-repo>
+
+git checkout -b <branch-name>
+
+# make changes
+
+git add .
+git commit -m "message"
+
+git push origin <branch-name>
+```
+
+---
+
+````md
 ## Create a folder locally
 ```bash
 mkdir -p /Users/shaarav/Documents/<Folder>/.../<Folder>/<Project>
@@ -360,25 +384,6 @@ git push origin --delete <feature-branch-name>
 * Never commit secrets/API keys/.env files
 * Avoid AI-generated code without reviewing it carefully
 * Prefer clarity over over-engineering
-
----
-
-# Quick Workflow Summary
-
-```bash
-git clone <fork-url>
-
-git remote add upstream <original-repo>
-
-git checkout -b <branch-name>
-
-# make changes
-
-git add .
-git commit -m "message"
-
-git push origin <branch-name>
-```
 
 ---
 
