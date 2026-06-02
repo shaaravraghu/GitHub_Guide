@@ -23,7 +23,9 @@ git push origin <branch-name>
 ```
 
 If things do not appear automatically on the repo page asking to compare and pull, then do this:
+```
 https://github.com/<owner>/<repo>/compare
+```
 
 ---
 
