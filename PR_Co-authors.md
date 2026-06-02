@@ -14,3 +14,10 @@ Co-authored-by: xthxr <myselfatharakram@gmail.com>
 Co-authored-by: sneha48898-design <sneha48898@gmail.com>
 ```
 
+```
+Co-authored-by: garlapallynihar-coder <garlapallynihar@gmail.com>
+```
+
+```
+Co-authored-by: Vanya-kapoor <vanyakapoor1010@gmail.com>
+```
