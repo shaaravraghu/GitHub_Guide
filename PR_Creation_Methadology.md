@@ -27,6 +27,33 @@ If things do not appear automatically on the repo page asking to compare and pul
 https://github.com/<owner>/<repo>/compare
 ```
 
+Safety from brnaching through regular pull and rebase
+```
+mkdir <folder_name>
+cd <folder_name>
+
+git clone <fork-url>
+cd <repo-name>
+
+git remote add upstream <original-repo>
+
+git fetch upstream
+git checkout main
+git pull upstream main
+
+git checkout -b <branch-name>
+
+# make changes
+
+git add .
+git commit -m "message"
+
+# safety sync before pushing
+git fetch origin
+git pull --rebase origin <branch-name>  # if branch already exists remotely
+
+git push -u origin <branch-name>
+```
 ---
 
 ## Create a folder locally
