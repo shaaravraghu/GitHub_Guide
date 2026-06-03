@@ -40,6 +40,8 @@ git remote add upstream <original-repo>
 git fetch upstream
 git checkout main
 git pull upstream main
+git checkout <branch-name>
+git pull upstream <branch-name>
 
 git checkout -b <branch-name>
 
