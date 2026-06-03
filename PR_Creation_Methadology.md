@@ -54,6 +54,11 @@ git pull --rebase origin <branch-name>  # if branch already exists remotely
 
 git push -u origin <branch-name>
 ```
+
+To visualise branching
+```
+git log --oneline --graph --decorate --all
+```
 ---
 
 ## Create a folder locally
