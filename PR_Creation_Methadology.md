@@ -28,7 +28,7 @@ https://github.com/<owner>/<repo>/compare
 ```
 
 Safety from brnaching through regular pull and rebase
-```
+```bash
 mkdir <folder_name>
 cd <folder_name>
 
