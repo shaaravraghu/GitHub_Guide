@@ -55,6 +55,9 @@ git fetch origin
 git pull --rebase origin <branch-name>  # if branch already exists remotely
 
 git push -u origin <branch-name>
+
+# creates the compare and pull request on main page
+gh pr create --web
 ```
 
 To visualise branching
