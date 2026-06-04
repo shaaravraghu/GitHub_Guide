@@ -54,6 +54,11 @@ git commit -m "message"
 git fetch origin
 git pull --rebase origin <branch-name>  # if branch already exists remotely
 
+# if shows fatal/ conflict (auto merge failing); resolve conflicts and proceed with further steps
+git add .
+git rebase --continue
+# repeat these two steps until sorted (or until taken to commit page)
+
 git push -u origin <branch-name>
 
 # creates the compare and pull request on main page
