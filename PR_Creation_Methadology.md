@@ -23,7 +23,7 @@ git push origin <branch-name>
 ```
 
 If things do not appear automatically on the repo page asking to compare and pull, then do this:
-```
+```bash
 https://github.com/<owner>/<repo>/compare
 ```
 
@@ -66,12 +66,12 @@ gh pr create --web
 ```
 
 To visualise branching
-```
+```bash
 git log --oneline --graph --decorate --all
 ```
 
 To understand what went wrong
-```
+```bash
 git fetch origin
 git status
 git branch -vv
