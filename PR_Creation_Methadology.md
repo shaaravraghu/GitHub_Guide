@@ -69,6 +69,14 @@ To visualise branching
 ```
 git log --oneline --graph --decorate --all
 ```
+
+To understand what went wrong
+```
+git fetch origin
+git status
+git branch -vv
+git log --oneline --graph --decorate --all -20
+```
 ---
 
 ## Create a folder locally
