@@ -20,8 +20,5 @@ Co-authored-by: garlapallynihar-coder <garlapallynihar@gmail.com>
 
 ```
 Co-authored-by: Vanya-kapoor <vanyakapoor1010@gmail.com>
-```
-
-```
 Co-authored-by: Shasha-2025 <sharmashaurya57201@gmail.com>
 ```
