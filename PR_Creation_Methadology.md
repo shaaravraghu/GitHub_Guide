@@ -26,6 +26,9 @@ If things do not appear automatically on the repo page asking to compare and pul
 ```bash
 https://github.com/<owner>/<repo>/compare
 ```
+```
+https://github.com/<owner>/<repo>/compare/main..<branch_name>
+```
 
 Safety from brnaching through regular pull and rebase
 ```bash
